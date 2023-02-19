@@ -6,6 +6,9 @@
     background-image: url("../images/free-construction-background-vector.jpg");
 }
 
+.bg2 {
+    background-image: url("../images/bg2.jpg");
+}
 
 .jumbotron {
     color: white;
@@ -27,6 +30,13 @@
     right: 0;
     background: #00000087;
     z-index: 0;
+}
+.data_layoff {
+  z-index: 100;
+}
+
+.hightlight-text {
+  color: var(--primary-color);
 }
 
 .custom-hero-transform {
@@ -64,6 +74,58 @@
   margin-top: 10px;
 }
 
+.elementor-shape-top {
+    top: -1px;
+    fill: var(--primary-color);
+}
+
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+#ourwork {
+  position: relative;
+  padding-top: 100px;
+}
+
+.service_div {
+  overflow: none;
+}
+
+.service_image {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.service_image:hover {
+  transform: scale(1.01);
+}
+
+.service_label {
+  font-size: 21px;
+  text-align: center;
+  padding: 7px 0px;
+  background: var(--primary-color);
+  color: #fff;
+}
+
+#testimonial_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  background: var(--primary-color);
+  padding: 65px;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .contact-box-hero {
@@ -74,5 +136,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .testimonial {
+    padding: 35px;
   }
 }
