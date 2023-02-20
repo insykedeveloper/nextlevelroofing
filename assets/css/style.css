@@ -10,6 +10,11 @@
     background-image: url("../images/bg2.jpg");
 }
 
+
+.bg3 {
+    background-image: url("../images/where_to_begin.jpg");
+}
+
 .jumbotron {
     color: white;
     min-height: 100vh;
@@ -127,6 +132,20 @@
   text-align: center;
 }
 
+
+.img-thumbnail, .thumb {
+    border: unset;
+    padding: unset;
+    border-radius: unset;
+    margin: 0;
+}
+
+.img-thumbnail {
+    height: 100% !important;
+    object-fit: cover;
+}
+
+
 @media (max-width: 768px) {
   .contact-box-hero {
     display: none;
@@ -140,5 +159,12 @@
 
   .testimonial {
     padding: 35px;
+  }
+
+
+  .thumb, .img-thumbnail {
+    height: auto;
+    width: 80%;
+    margin: auto;
   }
 }
