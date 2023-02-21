@@ -2,6 +2,10 @@
   --primary-color: #C58700;
 }
 
+.bg_primary {
+  background: var(--primary-color);
+}
+
 .bg1 {
     background-image: url("../images/free-construction-background-vector.jpg");
 }
@@ -13,6 +17,10 @@
 
 .bg3 {
     background-image: url("../images/where_to_begin.jpg");
+}
+
+.h-full {
+  min-height: 100vh;
 }
 
 .jumbotron {
@@ -145,6 +153,13 @@
     object-fit: cover;
 }
 
+.border_panel_white {
+  border: 1px solid #fff;
+}
+.contact_us_bg {
+    background-color: transparent;
+    background-image: linear-gradient(171deg, #FFFFFF 32%, var(--primary-color) 17%);
+  }
 
 @media (max-width: 768px) {
   .contact-box-hero {
