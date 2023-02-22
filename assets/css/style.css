@@ -1,5 +1,6 @@
 :root {
   --primary-color: #C58700;
+  --primary: #C58700;
 }
 
 .bg_primary {
@@ -158,10 +159,24 @@
 }
 .contact_us_bg {
     background-color: transparent;
-    background-image: linear-gradient(171deg, #FFFFFF 32%, var(--primary-color) 17%);
+    background-image: linear-gradient(90deg, #FFFFFF 32%, var(--primary-color) 17%);
   }
 
+.my_custom_btn {
+  background: var(--primary-color);
+  border-color: #fff;
+  color: #fff;
+}
+
+.my_custom_btn:hover {
+  color: #fff;
+  transform: scale(1.01);
+}
+
 @media (max-width: 768px) {
+  .contact_us_bg {
+    background-image: linear-gradient(232deg, #FFFFFF 32%, var(--primary-color) 17%);
+  }
   .contact-box-hero {
     display: none;
   }
