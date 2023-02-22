@@ -197,4 +197,10 @@
     width: 80%;
     margin: auto;
   }
+  .navbar-brand {
+    width: 63%;
+  }
+  .navbar-brand > img {
+    width: 250px;
+  }
 }
