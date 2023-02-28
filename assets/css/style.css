@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #C58700;
-  --primary: #C58700;
+  --primary-color: #af2222;
+  --primary: #af2222;
 }
 
 .bg_primary {
@@ -128,7 +128,7 @@
   color: #fff;
 }
 
-#testimonial_section {
+#testimonial_section, #where_to_begin {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,10 +143,7 @@
 
 
 .img-thumbnail, .thumb {
-    border: unset;
-    padding: unset;
-    border-radius: unset;
-    margin: 0;
+    margin-top: 20px;
 }
 
 .img-thumbnail {
@@ -172,8 +169,10 @@
   color: #fff;
   transform: scale(1.01);
 }
-
+.m-black {color: #fff !important}
 @media (max-width: 768px) {
+  .m-white {color: #fff !important}
+  .m-black {color: #000 !important}
   .contact_us_bg {
     background-image: linear-gradient(232deg, #FFFFFF 32%, var(--primary-color) 17%);
   }
