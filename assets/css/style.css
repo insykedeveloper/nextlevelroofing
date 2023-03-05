@@ -170,7 +170,16 @@
   transform: scale(1.01);
 }
 .m-black {color: #fff !important}
+.logo-img  {
+  color:var(--primary-color);
+  font-size:50px;
+  margin-right:20px;
+}
+
 @media (max-width: 768px) {
+   .logo-img  {
+      font-size:25px;
+   }
   .navbar-brand {font-size: 1.00em}
   .m-white {color: #fff !important}
   .m-black {color: #000 !important}
